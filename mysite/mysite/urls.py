@@ -19,4 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^polls/', include('polls.urls', namespace="polls")),
+    url(r'^music/', include('music.urls', namespace="music")),
+    url(r'^todos/', include('todos.urls', namespace="todos")),
+
 ]
