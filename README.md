@@ -16,3 +16,14 @@ localhost:8000/polls------for Polls Application
 localhost:8000/todos------for todos Application
 
 localhost:8000/music-------for Music Application
+
+
+Docker Environment
+
+ cd Django-Polls/mysite
+ 
+Then Run 
+
+"docker-compose up"
+
+Now, This Application can be served on Docker Environment as well as on Kubernetes.
