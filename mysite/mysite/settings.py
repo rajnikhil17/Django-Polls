@@ -25,7 +25,7 @@ SECRET_KEY = 'gs-pdu#87r+r$anx4cx@$dj=4-gmyci5@$=czu0!#6a_jjdaqv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
