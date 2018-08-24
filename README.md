@@ -3,6 +3,7 @@ Open the Application Directory
     
 Run 
 python manage.py migrate ----For Migrations(Database)
+
 python manage.py runserver ----Starting Server
 
 
