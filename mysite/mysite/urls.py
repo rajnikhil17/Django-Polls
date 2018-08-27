@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^music/', include('music.urls', namespace="music")),
     url(r'^todos/', include('todos.urls', namespace="todos")),
+    url(r'^myapp/', include('myapp.urls', namespace="myapp")),
+] 
 
-]
