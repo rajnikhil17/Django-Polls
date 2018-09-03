@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'polls',
     'music',
     'todos',
-    'myapp',
+    'maps',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
